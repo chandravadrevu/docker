@@ -1,11 +1,1 @@
-# Pull base image.
-FROM dockerfile/ubuntu
-
-# Install Nginx.
-RUN \
-  add-apt-repository -y ppa:nginx/stable && \
-  apt-get update && \
-  apt-get install -y nginx && \
-  
-# Expose ports.
-EXPOSE 80
+docker pull kiwenlau/cirros
