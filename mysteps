@@ -1,0 +1,6 @@
+ git add .
+ git init
+ git commit -m "test1"
+ git remote add origin https://github.com/chandravadrevu/myrepos.git
+ git push -u origin master
+
